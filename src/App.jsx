@@ -23,7 +23,7 @@ const App = () => {
   }, []);
 
   useEffect(() => {
-    flipSound.current = new Audio("public/pageturn.mp3");
+    flipSound.current = new Audio("/pageturn.mp3");
   }, []);
 
   const handlePageFlip = (e) => {
@@ -73,7 +73,7 @@ const App = () => {
       )}
 
       <PdfToImages
-        pdfUrl="public/Menu_Dejavu_20.06.pdf"
+        pdfUrl="/Menu_Dejavu_20.06.pdf"
         onLoad={handlePdfLoad}
       />
 
