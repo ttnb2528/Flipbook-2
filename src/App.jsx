@@ -67,7 +67,7 @@ const App = () => {
   return (
     <div className="w-[97vw] min-h-screen flex flex-col items-center justify-center relative">
       {isLoading && (
-        <div className="absolute text-white text-xl font-semibold animate-pulse">
+        <div className="absolute text-xl font-semibold animate-pulse">
           Loading menu...
         </div>
       )}
